@@ -338,7 +338,7 @@ $( document ).ready(function() {
 		//convert image embeds that are actually videos to video embeds
 		chatImageToVideo(div);
 		
-		return "nigger lol";
+		return div;
 	};
 	
 	//Overwrite trimChatBuffer to prevent the whole page from scrolling when old chat messages are removed

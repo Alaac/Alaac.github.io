@@ -199,8 +199,8 @@ function InitTeam(team) {
 	var cssSel = (team.ExclusiveTo ? ".chat-msg-" + team.ExclusiveTo + " ": "") + ".team" + team.id;
 	team.css = cssSel+"{ color:"+team.color+"!important;} "+cssSel+"::before{ background-image:url('"+team.icon+"')!important;}";
 	
-	if(!AllTeams.hasOwnProperty(team.id))
-		AllTeams[team.id] = team;
+	//if(!AllTeams.hasOwnProperty(team.id))
+	//	AllTeams[team.id] = team;
 }
 // omg color #62FFFC
 var TeamLists = {
