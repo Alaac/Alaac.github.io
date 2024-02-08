@@ -23,8 +23,8 @@ left:0 !important;
 	max-height:200px;
 }
 .channel-emote{
-	Max-width:25px;
-	Max-height:25px!important;
+	Max-width:64px;
+	Max-height:64px!important;
 }
 .vidchat{
 position:absolute;
@@ -77,8 +77,8 @@ body{    background: linear-gradient(#272b30,#1c293a) fixed;}
 #nav-collapsible{background-color:rgba(40,42,46,0.9);height:25px!important;}
 .form-control, #login{height:auto;padding:0 6px;}
 #loginform{margin-top:0;margin-bottom:0;}
-#videowrap{max-height:100%;width:calc(100% - 34rem);padding:0;margin:0;}
-#chatwrap{float:right;width:34rem;height:calc(100% - 110px);padding:0;margin:0;}
+#videowrap{max-height:100%;width:calc(100% - 64rem);padding:0;margin:0;}
+#chatwrap{float:right;width:64rem;height:calc(100% - 110px);padding:0;margin:0;}
 #mainpage{height:100%;}
 #mainpage{padding-top:25px;}
 #wrap{padding:0;}
@@ -119,7 +119,7 @@ body { overflow-y:scroll; }
 #playlistrow #pollwrap { min-width: auto; }
 @media only screen and (min-width: 600px) {
     .fixedChat #chatwrap { position: fixed; right: 0; top: 25px; z-index:1000; }
-    .fixedChat #announcements>div { width:calc(100% - 34rem); }
+    .fixedChat #announcements>div { width:calc(100% - 64rem); }
 }
 
 #chatline2 { 
@@ -139,7 +139,7 @@ body { overflow-y:scroll; }
     background-color: #3399ff;
 }
 #selectteam img {
-    width: 21px;
+    width: 24px;
     padding: 1px;
 }
 #selectteam ul {
@@ -202,7 +202,7 @@ body { overflow-y:scroll; }
     display: none;
 }
 #messagebuffer.bigEmotes .channel-emote{
-    Max-height:50px!important;
+    Max-height:128px!important;
 }
 #emotebtndiv { position: absolute; width: 100%; pointer-events: none; padding: 6px 3px; }
 #emotebtndiv button { position: relative; float: right; background-color: #444; padding: 1px 3px; pointer-events: auto;font-weight: bold; color: #DDD; }
