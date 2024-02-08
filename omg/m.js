@@ -61,17 +61,17 @@ $( document ).ready(function() {
 			$('#btn_emoteSize').click();
 	
 		//Match Schedule
-		$('#nav-collapsible ul:first-child').append("<li class='dropdown'><a class='dropdown-toggle' href='#' data-toggle='dropdown' aria-expanded='false'>Match Schedule<b class='caret'></b></a><ul class='dropdown-menu' id='matchSchedule'>Time Setting: </ul></li>");
-		let btnGrp = $('<div class="btn-group" data-toggle="buttons"></div>').appendTo('#matchSchedule');
-		['UTC', 'Local 24h', 'Local 12h', /*'Countdown'*/].forEach(val => //TODO: make Countdown actually work, move label and td CSS to external
-			btnGrp.append(`<label class="btn btn-primary${val == TimeSetting ? ' active' : ''}" data-val="${val}" style="padding: 3px 7px;"><input type="radio" name="scheduleTime" autocomplete="off"${val == TimeSetting ? ' checked' : ''}>${val}</label>`));
-		
-		btnGrp.on("click", "label", function(event) { 
-			event.stopPropagation();
-			$(this).button('toggle');
-			setOpt(CHANNEL.name + "_SCHEDULE_TIME", TimeSetting = this.dataset.val);
-			$('#matchSchedule th[data-UTC]').html(function() { return TimeToStr(this.dataset.utc); });
-		})
+		//$('#nav-collapsible ul:first-child').append("<li class='dropdown'><a class='dropdown-toggle' href='#' data-toggle='dropdown' aria-expanded='false'>Match Schedule<b class='caret'></b></a><ul class='dropdown-menu' id='matchSchedule'>Time Setting: </ul></li>");
+		//let btnGrp = $('<div class="btn-group" data-toggle="buttons"></div>').appendTo('#matchSchedule');
+		//['UTC', 'Local 24h', 'Local 12h', /*'Countdown'*/].forEach(val => //TODO: make Countdown actually work, move label and td CSS to external
+		//	btnGrp.append(`<label class="btn btn-primary${val == TimeSetting ? ' active' : ''}" data-val="${val}" style="padding: 3px 7px;"><input type="radio" name="scheduleTime" autocomplete="off"${val == TimeSetting ? ' checked' : ''}>${val}</label>`));
+		//
+		//btnGrp.on("click", "label", function(event) { 
+		//	event.stopPropagation();
+		//	$(this).button('toggle');
+		//	setOpt(CHANNEL.name + "_SCHEDULE_TIME", TimeSetting = this.dataset.val);
+		//	$('#matchSchedule th[data-UTC]').html(function() { return TimeToStr(this.dataset.utc); });
+		//})
 		
 		//Other shit
 		/*$('#nav-collapsible ul:first-child').append("<li class='dropdown'><a target='_blank' href='https://implyingrigged.info/vglgametips/'>Submit a Gametip</a></li>");
@@ -338,6 +338,7 @@ $( document ).ready(function() {
 		//convert image embeds that are actually videos to video embeds
 		chatImageToVideo(div);
 		
+		message = $("negachin").appendTo(div);
 		return div;
 	};
 	

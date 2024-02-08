@@ -202,24 +202,24 @@ function InitTeam(team) {
 	if(!AllTeams.hasOwnProperty(team.id))
 		AllTeams[team.id] = team;
 }
-
+// omg color #62FFFC
 var TeamLists = {
 	"4cc":[
-		{id:"DemonDrive",		color:"#62FFFC",icon:"https://images2.imgbox.com/28/4e/uhbzMTBL_o.png"},
-		{id:"FrostFire",		color:"#62FFFC",icon:"https://images2.imgbox.com/8e/dc/M3QBJSqs_o.png"},
-		{id:"ByteBreaker",		color:"#62FFFC",icon:"https://images2.imgbox.com/09/1b/nJFWPFqX_o.png"},
-		{id:"ClaironCorp",		color:"#62FFFC",icon:"https://images2.imgbox.com/91/ff/DzSpRxq5_o.png"},
-		{id:"Embermonarchy",		color:"#62FFFC",icon:"https://images2.imgbox.com/eb/e4/qegeYCql_o.png"},
-		{id:"Maelstrom",		color:"#62FFFC",icon:"https://images2.imgbox.com/0b/81/dVDFqmHA_o.png"},
-		{id:"SSR",			color:"#62FFFC",icon:"https://images2.imgbox.com/2d/82/PCucAIDk_o.png"},
-		{id:"BeeTeam",			color:"#62FFFC",icon:"https://images2.imgbox.com/85/47/Kb3JTjCu_o.png"},
-		{id:"OMCA",			color:"#62FFFC",icon:"https://images2.imgbox.com/fd/52/pn32FsUR_o.png"},
-		{id:"BellyBros",		color:"#62FFFC",icon:"https://images2.imgbox.com/de/23/S7Klb8PR_o.png"},
-		{id:"Lunatics",			color:"#62FFFC",icon:"https://images2.imgbox.com/aa/97/bUuUKXcQ_o.png"},
-		{id:"BigBop",			color:"#62FFFC",icon:"https://images2.imgbox.com/17/9c/K6F9Ljo8_o.png"},
-		{id:"2Girls1Zentaro",		color:"#62FFFC",icon:"https://images2.imgbox.com/38/3a/UfWIKQ0p_o.png"},
-		{id:"PheromoneFactory",		color:"#62FFFC",icon:"https://images2.imgbox.com/83/98/WW9SCSNG_o.png"},
-		{id:"BigFiniish",		color:"#62FFFC",icon:"https://images2.imgbox.com/a0/a0/nYSRErcF_o.png"},
+		{id:"DemonDrive",		color:"#92EEDE",icon:"https://images2.imgbox.com/28/4e/uhbzMTBL_o.png"},
+		{id:"FrostFire",		color:"#",icon:"https://images2.imgbox.com/8e/dc/M3QBJSqs_o.png"},
+		{id:"ByteBreaker",		color:"#EB819B",icon:"https://images2.imgbox.com/09/1b/nJFWPFqX_o.png"},
+		{id:"ClaironCorp",		color:"#51FFB8",icon:"https://images2.imgbox.com/91/ff/DzSpRxq5_o.png"},
+		{id:"Embermonarchy",		color:"#FEDF60",icon:"https://images2.imgbox.com/eb/e4/qegeYCql_o.png"},
+		{id:"Maelstrom",		color:"#9D45FF",icon:"https://images2.imgbox.com/0b/81/dVDFqmHA_o.png"},
+		{id:"SSR",			color:"#4EDAD0",icon:"https://images2.imgbox.com/2d/82/PCucAIDk_o.png"},
+		{id:"BeeTeam",			color:"#F7E129",icon:"https://images2.imgbox.com/85/47/Kb3JTjCu_o.png"},
+		{id:"OMCA",			color:"#437FDB",icon:"https://images2.imgbox.com/fd/52/pn32FsUR_o.png"},
+		{id:"BellyBros",		color:"#EF3875",icon:"https://images2.imgbox.com/de/23/S7Klb8PR_o.png"},
+		{id:"Lunatics",			color:"#E7E6E7",icon:"https://images2.imgbox.com/aa/97/bUuUKXcQ_o.png"},
+		{id:"BigBop",			color:"#05E506",icon:"https://images2.imgbox.com/17/9c/K6F9Ljo8_o.png"},
+		{id:"2Girls1Zentaro",		color:"#42EECF",icon:"https://images2.imgbox.com/38/3a/UfWIKQ0p_o.png"},
+		{id:"PheromoneFactory",		color:"#C3B8EC",icon:"https://images2.imgbox.com/83/98/WW9SCSNG_o.png"},
+		{id:"BigFiniish",		color:"#FFEDBA",icon:"https://images2.imgbox.com/a0/a0/nYSRErcF_o.png"},
 	],
 	"meme":[
 		{id:"animeswords",	color:"#E31B22",icon:"/w/images/thumb/b/b4/Animeswords_icon.png/25px-Animeswords_icon.png"},
