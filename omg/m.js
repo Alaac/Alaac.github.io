@@ -1,5 +1,5 @@
 $('<link id="chanfavicon" href="https://images2.imgbox.com/a0/f5/ESeunKnt_o.png" type="image/x-icon" rel="shortcut icon" />').appendTo("head");
-$('.navbar-brand').attr('href','https://boards.4chan.org/vg/catalog#s=%2Fomg%2F').text(' /omg/ League').css('padding', '0 10px 0 0').prepend('<img src="https://implyingrigged.info/w/images/d/df/Vglg_icon.png" style="display: inline;" height="20"/>');
+$('.navbar-brand').attr('href','https://boards.4chan.org/vg/catalog#s=%2Fomg%2F').text(' /omg/ League').css('padding', '0 10px 0 0').prepend('<img src="https://images2.imgbox.com/a0/f5/ESeunKnt_o.png" style="display: inline;" height="20"/>');
 $('head').append('<script type="text/javascript" src="https://alaac.github.io/omg/nnd.js">');
 $('head').append('<script type="text/javascript" src="https://alaac.github.io/omg/ts.js">');
 //$('head').append('<script type="text/javascript" src="https://implyingrigged.info/cytube/anon.js">');
@@ -74,11 +74,11 @@ $( document ).ready(function() {
 		})
 		
 		//Other shit
-		$('#nav-collapsible ul:first-child').append("<li class='dropdown'><a target='_blank' href='https://implyingrigged.info/vglgametips/'>Submit a Gametip</a></li>");
-		$('#nav-collapsible ul:first-child').append('<li><a href="https://www.youtube.com/channel/UCMZYZp8eULxC5v097fswHcA?sub_confirmation=1" target="_blank">Get notifications when LIV</a></li>');
+		/*$('#nav-collapsible ul:first-child').append("<li class='dropdown'><a target='_blank' href='https://implyingrigged.info/vglgametips/'>Submit a Gametip</a></li>");
+		$('#nav-collapsible ul:first-child').append('<li><a href="https://www.youtube.com/channel/UCMZYZp8eULxC5v097fswHcA?sub_confirmation=1" target="_blank">Get aids when LIV</a></li>');
 		$('#nav-collapsible ul:first-child').append('<li><a href="https://www.youtube.com/channel/UCMZYZp8eULxC5v097fswHcA" target="_blank"><img src="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico"/></a></li>');
 		$('#nav-collapsible ul:first-child').append('<li><a href="https://boards.4channel.org/vg/catalog#s=vglg" target="_blank"><img src="https://s.4cdn.org/image/favicon.ico"/></a></li>');
-		$('#nav-collapsible ul:first-child').append('<li><a href="https://www.twitch.tv/vglvods" target="_blank"><img src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png" width=16 /></a></li>');
+		$('#nav-collapsible ul:first-child').append('<li><a href="https://www.twitch.tv/vglvods" target="_blank"><img src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png" width=16 /></a></li>');*/
 	}
 	
 	/* Tabs */ {
@@ -392,7 +392,7 @@ $( document ).ready(function() {
 	//Set the usercount text to something funny
 	Callbacks.usercount = function(count) {
         CHANNEL.usercount = count; 
-        var text = count + (UserCountLabel || " connected users");
+        var text = count + (UserCountLabel || " EOS confirmation");
         if (count === 69) 
           text += ' (nice)';
         $("#usercount").html(text);
