@@ -338,8 +338,7 @@ $( document ).ready(function() {
 		//convert image embeds that are actually videos to video embeds
 		chatImageToVideo(div);
 		
-		message = $("negachin").appendTo(div);
-		return div;
+		return "nigger lol";
 	};
 	
 	//Overwrite trimChatBuffer to prevent the whole page from scrolling when old chat messages are removed
