@@ -392,7 +392,7 @@ $( document ).ready(function() {
 	//Set the usercount text to something funny
 	Callbacks.usercount = function(count) {
         CHANNEL.usercount = count; 
-        var text = count + (UserCountLabel || " connected users");
+        var text = count + (UserCountLabel || " EOS confirmation");
         if (count === 69) 
           text += ' (nice)';
         $("#usercount").html(text);
